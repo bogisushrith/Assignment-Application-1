@@ -1,0 +1,258 @@
+[
+  {
+    "type": "operator",
+    "operator": "AND",
+    "field": null,
+    "value": null,
+    "left": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": ">",
+          "field": "age",
+          "value": "30",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Sales",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": "<",
+          "field": "age",
+          "value": "25",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Marketing",
+          "left": null,
+          "right": null
+        }
+      }
+    },
+    "right": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "condition",
+        "operator": ">",
+        "field": "salary",
+        "value": "50000",
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "type": "condition",
+        "operator": ">",
+        "field": "experience",
+        "value": "5",
+        "left": null,
+        "right": null
+      }
+    }
+  },
+  {
+    "type": "operator",
+    "operator": "AND",
+    "field": null,
+    "value": null,
+    "left": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": ">",
+          "field": "age",
+          "value": "30",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Sales",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": "<",
+          "field": "age",
+          "value": "25",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Marketing",
+          "left": null,
+          "right": null
+        }
+      }
+    },
+    "right": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "condition",
+        "operator": ">",
+        "field": "salary",
+        "value": "50000",
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "type": "condition",
+        "operator": ">",
+        "field": "experience",
+        "value": "5",
+        "left": null,
+        "right": null
+      }
+    }
+  },
+  {
+    "type": "operator",
+    "operator": "AND",
+    "field": null,
+    "value": null,
+    "left": {
+      "type": "condition",
+      "operator": ">",
+      "field": "age",
+      "value": "30",
+      "left": null,
+      "right": null
+    },
+    "right": {
+      "type": "condition",
+      "operator": ">",
+      "field": "salary",
+      "value": "50000",
+      "left": null,
+      "right": null
+    }
+  },
+  {
+    "type": "operator",
+    "operator": "AND",
+    "field": null,
+    "value": null,
+    "left": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": ">",
+          "field": "age",
+          "value": "30",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Sales",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "type": "operator",
+        "operator": "AND",
+        "field": null,
+        "value": null,
+        "left": {
+          "type": "condition",
+          "operator": "<",
+          "field": "age",
+          "value": "25",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "type": "condition",
+          "operator": "=",
+          "field": "department",
+          "value": "Marketing",
+          "left": null,
+          "right": null
+        }
+      }
+    },
+    "right": {
+      "type": "operator",
+      "operator": "OR",
+      "field": null,
+      "value": null,
+      "left": {
+        "type": "condition",
+        "operator": ">",
+        "field": "salary",
+        "value": "50000",
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "type": "condition",
+        "operator": ">",
+        "field": "experience",
+        "value": "5",
+        "left": null,
+        "right": null
+      }
+    }
+  }
+]
